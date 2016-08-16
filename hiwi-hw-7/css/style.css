@@ -5,6 +5,7 @@ Author: Your Name
 Developer @GA in NYC
 */
 
+/* Looks like you skipped the blog page, so a lot of the styling you have isn't necessarily unique to a responsive layout. Next time, try including some floats and changing the styling to be single column for responsive views! Also, try to keep the styles you have inside your media query limited to things that are unique to the responsive view. Font sizes and colors will rarely be included, unless for some reason you want them different on desktop. You would definitely want anything layout related that will change for different devices, though. */
 
 /******************************************
 /* SETUP
@@ -373,5 +374,3 @@ footer p {
     display: none;
   }
 }
-
-
